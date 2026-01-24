@@ -1,5 +1,5 @@
-[16:17:14] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.18.4
-[16:17:14] [main/INFO]: Loading 106 mods:
+[15:03:34] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.18.4
+[15:03:37] [main/INFO]: Loading 107 mods:
 	- awesomedungeon 3.2.0
 	- awesomedungeonend 3.1.1
 	- awesomedungeonnether 3.1.1
@@ -13,6 +13,8 @@
 	- betterfortresses 1.21.4-Fabric-3.4.1
 	   \-- org_reflections_reflections 0.10.2
 	- betterjungletemples 1.21.4-Fabric-3.4.0
+	   \-- org_reflections_reflections 0.10.2
+	- bettermineshafts 1.21.4-Fabric-5.4.0
 	   \-- org_reflections_reflections 0.10.2
 	- betteroceanmonuments 1.21.4-Fabric-4.4.0
 	   \-- org_reflections_reflections 0.10.2
@@ -125,113 +127,413 @@
 	   \-- org_reflections_reflections 0.10.2
 	- yungsextras 1.21.4-Fabric-5.4.0
 	   \-- org_reflections_reflections 0.10.2
-[16:17:14] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/Server/minecraft-fabric/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[16:17:14] [main/INFO]: Compatibility level set to JAVA_17
-[16:17:14] [main/INFO]: Compatibility level set to JAVA_21
-[16:17:15] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[16:17:15] [main/INFO]: Loaded configuration file for Lithium: 158 options available, 0 override(s) found.
-[16:17:15] [main/INFO]: Successfully started async appender with [SysOut, ServerGuiConsole, Tracy, File]
-[16:17:15] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[16:17:22] [main/INFO]: Reflections took 53 ms to scan 1 urls, producing 1 keys and 2 values
-[16:17:22] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
-[16:17:22] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
-[16:17:22] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
-[16:17:22] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[16:17:22] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[16:17:22] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
-[16:17:22] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[16:17:22] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
-[16:17:22] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
-[16:17:22] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[16:17:22] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[16:17:22] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[16:17:22] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[16:17:22] [main/WARN]: WARNING: block Block{minecraft:iron_ore} added to BlockStateRandomizer exceeds max probabiltiy of 1!
-[16:17:22] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[16:17:22] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
-[16:17:23] [main/INFO]: Loaded config for: cupboard.json
-[16:17:23] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.0.x (Linux x86_64)
-[16:17:23] [main/INFO]: Initialize mod Library Ferret
-[16:17:23] [main/INFO]: Initialized mod Library Ferret
-[16:17:23] [main/INFO]: hi!
-[16:17:23] [main/INFO]: [ServerCore] Loaded V1.5.8+1.21.4!
-[16:17:24] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
-[16:17:24] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
-[16:17:24] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
-[16:17:24] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
-[16:17:24] [main/INFO]: Reflections took 8 ms to scan 1 urls, producing 1 keys and 3 values
-[16:17:24] [main/INFO]: Reflections took 8 ms to scan 1 urls, producing 1 keys and 3 values
-[16:17:24] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[16:17:24] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[16:17:24] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[16:17:24] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[16:17:24] [main/WARN]: Missing data pack bettermineshafts
-[16:17:25] [main/INFO]: Structure placement for `awesomedungeon:abandoned_oak_palace/start_pool`: { spacing: 50, separation: 25, salt: 1694767080, useValueFromConfiguration: true}
-[16:17:25] [main/INFO]: Structure placement for `awesomedungeonend:aws_all_end_structures/start_pool`: { spacing: 20, separation: 15, salt: 49082056, useValueFromConfiguration: true}
-[16:17:25] [main/INFO]: Structure placement for `awesomedungeon:better_default_jungle_temple/start_pool`: { spacing: 50, separation: 25, salt: 1654787080, useValueFromConfiguration: true}
-[16:17:25] [main/INFO]: Structure placement for `awesomedungeonocean:brigantine/start_pool`: { spacing: 25, separation: 10, salt: 294215156, useValueFromConfiguration: true}
-[16:17:25] [main/INFO]: Structure placement for `awesomedungeon:desert_temple_husk/start_pool`: { spacing: 50, separation: 25, salt: 1394767080, useValueFromConfiguration: true}
-[16:17:25] [main/INFO]: Structure placement for `awesomedungeonocean:frigate_large/start_pool`: { spacing: 25, separation: 10, salt: 354415156, useValueFromConfiguration: true}
-[16:17:25] [main/INFO]: Structure placement for `awesomedungeonocean:frigate_medium/start_pool`: { spacing: 25, separation: 10, salt: 474155156, useValueFromConfiguration: true}
-[16:17:25] [main/INFO]: Structure placement for `awesomedungeon:jungle_giant_tree/start_pool`: { spacing: 50, separation: 25, salt: 1494763380, useValueFromConfiguration: true}
-[16:17:25] [main/INFO]: Structure placement for `awesomedungeon:mushroom_abandonned/start_pool`: { spacing: 50, separation: 25, salt: 1494227080, useValueFromConfiguration: true}
-[16:17:25] [main/INFO]: Structure placement for `awesomedungeonnether:nth_absi_palace/start_pool`: { spacing: 50, separation: 25, salt: 19482856, useValueFromConfiguration: true}
-[16:17:25] [main/INFO]: Structure placement for `awesomedungeonnether:nth_accum_quad/start_pool`: { spacing: 50, separation: 25, salt: 28482856, useValueFromConfiguration: true}
-[16:17:25] [main/INFO]: Structure placement for `awesomedungeonnether:nth_blaze_tower/start_pool`: { spacing: 50, separation: 25, salt: 37482856, useValueFromConfiguration: true}
-[16:17:25] [main/INFO]: Structure placement for `awesomedungeonnether:nth_center_square/start_pool`: { spacing: 50, separation: 25, salt: 46482856, useValueFromConfiguration: true}
-[16:17:25] [main/INFO]: Structure placement for `awesomedungeonnether:nth_giant_crimson_tree/start_pool`: { spacing: 50, separation: 25, salt: 55482856, useValueFromConfiguration: true}
-[16:17:25] [main/INFO]: Structure placement for `awesomedungeonnether:nth_obsi_house/start_pool`: { spacing: 50, separation: 25, salt: 64482856, useValueFromConfiguration: true}
-[16:17:25] [main/INFO]: Structure placement for `awesomedungeonocean:ocean_cage/start_pool`: { spacing: 25, separation: 10, salt: 40842806, useValueFromConfiguration: true}
-[16:17:25] [main/INFO]: Structure placement for `awesomedungeonocean:ocean_quad/start_pool`: { spacing: 25, separation: 10, salt: 254835856, useValueFromConfiguration: true}
-[16:17:25] [main/INFO]: Structure placement for `awesomedungeonocean:ocean_ruin_pillager/start_pool`: { spacing: 25, separation: 10, salt: 254145856, useValueFromConfiguration: true}
-[16:17:25] [main/INFO]: Structure placement for `awesomedungeonocean:ocean_ruin_vanilla_temple/start_pool`: { spacing: 25, separation: 10, salt: 25482856, useValueFromConfiguration: true}
-[16:17:25] [main/INFO]: Structure placement for `awesomedungeonocean:ocean_temple_quad/start_pool`: { spacing: 25, separation: 10, salt: 35482856, useValueFromConfiguration: true}
-[16:17:25] [main/INFO]: Structure placement for `awesomedungeonocean:ocean_the_column_temple/start_pool`: { spacing: 25, separation: 10, salt: 15482856, useValueFromConfiguration: true}
-[16:17:25] [main/INFO]: Structure placement for `awesomedungeonocean:ocean_warn_temple/start_pool`: { spacing: 25, separation: 10, salt: 45482856, useValueFromConfiguration: true}
-[16:17:25] [main/INFO]: Structure placement for `awesomedungeon:swamp_big_temple/start_pool`: { spacing: 50, separation: 25, salt: 1594763280, useValueFromConfiguration: true}
-[16:17:25] [main/INFO]: Structure placement for `awesomedungeon:the_usine/start_pool`: { spacing: 50, separation: 25, salt: 1694767078, useValueFromConfiguration: true}
-[16:17:25] [main/INFO]: Structure placement for `awesomedungeon:t_z_tower/start_pool`: { spacing: 50, separation: 25, salt: 1794767078, useValueFromConfiguration: true}
-[16:17:25] [main/INFO]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
-[16:17:25] [main/INFO]: Structure placement for `awesomedungeon:witch_castle/start_pool`: { spacing: 50, separation: 25, salt: 1894776078, useValueFromConfiguration: true}
-[16:17:27] [main/INFO]: Loaded 1507 recipes
-[16:17:27] [main/INFO]: Loaded 1689 advancements
-[16:17:27] [main/INFO]: Applied 217 biome modifications to 54 of 72 new biomes in 26.83 ms
-[16:17:27] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[16:17:27] [Server thread/INFO]: Loading properties
-[16:17:27] [Server thread/INFO]: Default game type: SURVIVAL
-[16:17:27] [Server thread/INFO]: Generating keypair
-[16:17:27] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:17:27] [Server thread/INFO]: Using epoll channel type
-[16:17:27] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:17:27] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:17:27] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16:17:27] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:17:27] [Server thread/INFO]: Preparing level "world"
-[16:17:28] [Server thread/INFO]: Changing watch distance to 10
-[16:17:28] [Server thread/INFO]: Changing watch distance to 10
-[16:17:28] [Server thread/INFO]: Changing watch distance to 10
-[16:17:28] [Server thread/INFO]: Changing watch distance to 10
-[16:17:28] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:17:28] [Server thread/INFO]: [STDOUT]: [ScalableLux] Lighting scaling is disabled (due to low parallelism in the settings)
-[16:17:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:17:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:17:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:17:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:17:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:17:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:17:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:17:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:17:32] [Worker-Main-1/INFO]: Preparing spawn area: 14%
-[16:17:32] [Server thread/INFO]: Time elapsed: 4435 ms
-[16:17:32] [Server thread/INFO]: Done (4.887s)! For help, type "help"
-[16:17:32] [Server thread/WARN]: WARNING: block Block{minecraft:iron_ore} added to BlockStateRandomizer exceeds max probabiltiy of 1!
-[16:18:01] [Server thread/INFO]: Drazestorm[/127.132.200.252:50307] logged in with entity id 7 at (1171.0896989201678, 76.0, 1818.9267037568543)
-[16:18:01] [Server thread/INFO]: Loading config from file...
-[16:18:01] [Server thread/INFO]: Drazestorm joined the game
-[16:18:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2422ms or 48 ticks behind
-[16:18:08] [Server thread/ERROR]: Unknown structure start: bettermineshafts:mineshaft_overgrown
-[16:18:09] [Server thread/ERROR]: Unknown structure start: bettermineshafts:mineshaft_spruce
-[16:18:09] [Server thread/ERROR]: Unknown structure start: bettermineshafts:mineshaft_overgrown
-[16:20:05] [Server thread/INFO]: Drazestorm lost connection: Disconnected
-[16:20:05] [Server thread/INFO]: Drazestorm left the game
-[16:21:05] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[15:03:39] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/Server/minecraft-fabric/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[15:03:39] [main/INFO]: Compatibility level set to JAVA_17
+[15:03:39] [main/INFO]: Compatibility level set to JAVA_21
+[15:03:40] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[15:03:40] [main/INFO]: Loaded configuration file for Lithium: 158 options available, 0 override(s) found.
+[15:03:40] [main/INFO]: Successfully started async appender with [SysOut, ServerGuiConsole, Tracy, File]
+[15:03:41] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[15:03:48] [main/INFO]: Reflections took 43 ms to scan 1 urls, producing 1 keys and 2 values
+[15:03:48] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
+[15:03:48] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
+[15:03:48] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[15:03:48] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[15:03:48] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[15:03:48] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[15:03:48] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[15:03:48] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+[15:03:48] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+[15:03:48] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[15:03:48] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[15:03:48] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[15:03:48] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[15:03:48] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[15:03:48] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[15:03:48] [main/WARN]: WARNING: block Block{minecraft:iron_ore} added to BlockStateRandomizer exceeds max probabiltiy of 1!
+[15:03:48] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[15:03:48] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[15:03:48] [main/INFO]: Loaded config for: cupboard.json
+[15:03:48] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.0.x (Linux x86_64)
+[15:03:48] [main/INFO]: Initialize mod Library Ferret
+[15:03:48] [main/INFO]: Initialized mod Library Ferret
+[15:03:49] [main/INFO]: hi!
+[15:03:49] [main/INFO]: [ServerCore] Loaded V1.5.8+1.21.4!
+[15:03:50] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
+[15:03:50] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
+[15:03:50] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
+[15:03:50] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
+[15:03:50] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
+[15:03:50] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
+[15:03:50] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
+[15:03:50] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[15:03:50] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[15:03:50] [main/WARN]: Failed to parse resource pack prompt '§6Ragnarok SMP Resource Pack'
+com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setStrictness(Strictness.LENIENT) to accept malformed JSON at line 1 column 13 path $
+See https://github.com/google/gson/blob/main/Troubleshooting.md#malformed-json
+	at knot/com.google.gson.JsonParser.parseReader(JsonParser.java:116) ~[gson-2.11.0.jar:?]
+	at knot/com.google.gson.JsonParser.parseString(JsonParser.java:92) ~[gson-2.11.0.jar:?]
+	at knot/net.minecraft.class_2561$class_2562.method_10877(class_2561.java:178) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3806.method_43661(class_3806.java:153) [server-intermediary.jar:?]
+	at knot/net.minecraft.class_3806.method_43660(class_3806.java:185) [server-intermediary.jar:?]
+	at knot/net.minecraft.class_3806.<init>(class_3806.java:125) [server-intermediary.jar:?]
+	at knot/net.minecraft.class_3806.method_16714(class_3806.java:141) [server-intermediary.jar:?]
+	at knot/net.minecraft.class_3807.<init>(class_3807.java:12) [server-intermediary.jar:?]
+	at knot/net.minecraft.server.Main.main(Main.java:116) [server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514) [fabric-loader-0.18.4.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72) [fabric-loader-0.18.4.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.18.4.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.18.4.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric_server.jar:1.1.1]
+Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setStrictness(Strictness.LENIENT) to accept malformed JSON at line 1 column 13 path $
+See https://github.com/google/gson/blob/main/Troubleshooting.md#malformed-json
+	at knot/com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1754) ~[gson-2.11.0.jar:?]
+	at knot/com.google.gson.stream.JsonReader.checkLenient(JsonReader.java:1550) ~[gson-2.11.0.jar:?]
+	at knot/com.google.gson.stream.JsonReader.doPeek(JsonReader.java:625) ~[gson-2.11.0.jar:?]
+	at knot/com.google.gson.stream.JsonReader.peek(JsonReader.java:507) ~[gson-2.11.0.jar:?]
+	at knot/com.google.gson.JsonParser.parseReader(JsonParser.java:111) ~[gson-2.11.0.jar:?]
+	... 13 more
+[15:03:50] [main/WARN]: resource-pack-id missing, using default of 8bba713e-98b9-3cc9-8d9c-481f8305392d
+[15:03:50] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:03:51] [main/INFO]: Structure placement for `awesomedungeon:abandoned_oak_palace/start_pool`: { spacing: 50, separation: 25, salt: 1694767080, useValueFromConfiguration: true}
+[15:03:51] [main/INFO]: Structure placement for `awesomedungeonend:aws_all_end_structures/start_pool`: { spacing: 20, separation: 15, salt: 49082056, useValueFromConfiguration: true}
+[15:03:51] [main/INFO]: Structure placement for `awesomedungeon:better_default_jungle_temple/start_pool`: { spacing: 50, separation: 25, salt: 1654787080, useValueFromConfiguration: true}
+[15:03:51] [main/INFO]: Structure placement for `awesomedungeonocean:brigantine/start_pool`: { spacing: 25, separation: 10, salt: 294215156, useValueFromConfiguration: true}
+[15:03:51] [main/INFO]: Structure placement for `awesomedungeon:desert_temple_husk/start_pool`: { spacing: 50, separation: 25, salt: 1394767080, useValueFromConfiguration: true}
+[15:03:51] [main/INFO]: Structure placement for `awesomedungeonocean:frigate_large/start_pool`: { spacing: 25, separation: 10, salt: 354415156, useValueFromConfiguration: true}
+[15:03:51] [main/INFO]: Structure placement for `awesomedungeonocean:frigate_medium/start_pool`: { spacing: 25, separation: 10, salt: 474155156, useValueFromConfiguration: true}
+[15:03:51] [main/INFO]: Structure placement for `awesomedungeon:jungle_giant_tree/start_pool`: { spacing: 50, separation: 25, salt: 1494763380, useValueFromConfiguration: true}
+[15:03:51] [main/INFO]: Structure placement for `awesomedungeon:mushroom_abandonned/start_pool`: { spacing: 50, separation: 25, salt: 1494227080, useValueFromConfiguration: true}
+[15:03:51] [main/INFO]: Structure placement for `awesomedungeonnether:nth_absi_palace/start_pool`: { spacing: 50, separation: 25, salt: 19482856, useValueFromConfiguration: true}
+[15:03:51] [main/INFO]: Structure placement for `awesomedungeonnether:nth_accum_quad/start_pool`: { spacing: 50, separation: 25, salt: 28482856, useValueFromConfiguration: true}
+[15:03:51] [main/INFO]: Structure placement for `awesomedungeonnether:nth_blaze_tower/start_pool`: { spacing: 50, separation: 25, salt: 37482856, useValueFromConfiguration: true}
+[15:03:51] [main/INFO]: Structure placement for `awesomedungeonnether:nth_center_square/start_pool`: { spacing: 50, separation: 25, salt: 46482856, useValueFromConfiguration: true}
+[15:03:51] [main/INFO]: Structure placement for `awesomedungeonnether:nth_giant_crimson_tree/start_pool`: { spacing: 50, separation: 25, salt: 55482856, useValueFromConfiguration: true}
+[15:03:51] [main/INFO]: Structure placement for `awesomedungeonnether:nth_obsi_house/start_pool`: { spacing: 50, separation: 25, salt: 64482856, useValueFromConfiguration: true}
+[15:03:51] [main/INFO]: Structure placement for `awesomedungeonocean:ocean_cage/start_pool`: { spacing: 25, separation: 10, salt: 40842806, useValueFromConfiguration: true}
+[15:03:51] [main/INFO]: Structure placement for `awesomedungeonocean:ocean_quad/start_pool`: { spacing: 25, separation: 10, salt: 254835856, useValueFromConfiguration: true}
+[15:03:51] [main/INFO]: Structure placement for `awesomedungeonocean:ocean_ruin_pillager/start_pool`: { spacing: 25, separation: 10, salt: 254145856, useValueFromConfiguration: true}
+[15:03:51] [main/INFO]: Structure placement for `awesomedungeonocean:ocean_ruin_vanilla_temple/start_pool`: { spacing: 25, separation: 10, salt: 25482856, useValueFromConfiguration: true}
+[15:03:51] [main/INFO]: Structure placement for `awesomedungeonocean:ocean_temple_quad/start_pool`: { spacing: 25, separation: 10, salt: 35482856, useValueFromConfiguration: true}
+[15:03:51] [main/INFO]: Structure placement for `awesomedungeonocean:ocean_the_column_temple/start_pool`: { spacing: 25, separation: 10, salt: 15482856, useValueFromConfiguration: true}
+[15:03:51] [main/INFO]: Structure placement for `awesomedungeonocean:ocean_warn_temple/start_pool`: { spacing: 25, separation: 10, salt: 45482856, useValueFromConfiguration: true}
+[15:03:51] [main/INFO]: Structure placement for `awesomedungeon:swamp_big_temple/start_pool`: { spacing: 50, separation: 25, salt: 1594763280, useValueFromConfiguration: true}
+[15:03:51] [main/INFO]: Structure placement for `awesomedungeon:the_usine/start_pool`: { spacing: 50, separation: 25, salt: 1694767078, useValueFromConfiguration: true}
+[15:03:51] [main/INFO]: Structure placement for `awesomedungeon:t_z_tower/start_pool`: { spacing: 50, separation: 25, salt: 1794767078, useValueFromConfiguration: true}
+[15:03:51] [main/INFO]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
+[15:03:51] [main/INFO]: Structure placement for `awesomedungeon:witch_castle/start_pool`: { spacing: 50, separation: 25, salt: 1894776078, useValueFromConfiguration: true}
+[15:03:53] [main/INFO]: Loaded 1507 recipes
+[15:03:53] [main/INFO]: Loaded 1689 advancements
+[15:03:53] [main/INFO]: Applied 217 biome modifications to 54 of 72 new biomes in 21.03 ms
+[15:03:53] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[15:03:53] [Server thread/INFO]: Loading properties
+[15:03:53] [Server thread/INFO]: Default game type: SURVIVAL
+[15:03:53] [Server thread/INFO]: Generating keypair
+[15:03:54] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:03:54] [Server thread/INFO]: Using epoll channel type
+[15:03:54] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:03:54] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:03:54] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:03:54] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:03:54] [Server thread/INFO]: Preparing level "world"
+[15:03:54] [Server thread/INFO]: Changing watch distance to 10
+[15:03:54] [Server thread/INFO]: Changing watch distance to 10
+[15:03:54] [Server thread/INFO]: Changing watch distance to 10
+[15:03:54] [Server thread/INFO]: Changing watch distance to 10
+[15:03:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:03:54] [Server thread/INFO]: [STDOUT]: [ScalableLux] Lighting scaling is disabled (due to low parallelism in the settings)
+[15:03:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[15:03:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[15:03:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[15:03:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[15:03:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[15:03:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[15:03:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[15:03:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[15:03:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[15:03:59] [Worker-Main-1/INFO]: Preparing spawn area: 51%
+[15:03:59] [Server thread/INFO]: Time elapsed: 4887 ms
+[15:03:59] [Server thread/INFO]: Done (5.361s)! For help, type "help"
+[15:04:00] [Server thread/WARN]: WARNING: block Block{minecraft:iron_ore} added to BlockStateRandomizer exceeds max probabiltiy of 1!
+[15:04:59] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[15:06:07] [Server thread/INFO]: Drazestorm[/127.173.179.177:49189] logged in with entity id 8 at (1003.4835076241952, 66.0625, 3920.147242169348)
+[15:06:07] [Server thread/INFO]: Loading config from file...
+[15:06:08] [Server thread/INFO]: Drazestorm joined the game
+[15:06:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3001ms or 60 ticks behind
+[15:07:52] [Server thread/INFO]: com.mojang.authlib.GameProfile@76185fd3[id=5eb57731-4424-3ffa-9da0-62d5f8eaa573,name=ThroneS,properties={}] lost connection: Disconnected
+[15:08:05] [Server thread/INFO]: ThroneS[/127.187.239.10:56443] logged in with entity id 867 at (1171.3866003286266, 75.0, 1822.1052352461977)
+[15:08:05] [Server thread/INFO]: Loading config from file...
+[15:08:05] [Server thread/INFO]: ThroneS joined the game
+[15:08:42] [Server thread/INFO]: [Not Secure] <ThroneS> 1175 77 1820
+[15:08:49] [Server thread/INFO]: [Not Secure] <Drazestorm> witch
+[15:14:54] [Server thread/INFO]: ThroneS fell from a high place
+[15:14:54] [Server thread/INFO]: Created new backpack backup file for ThroneS with unique ID travelersbackpack.enderman_23.01.2026-15.14.54.dat
+[15:14:54] [Server thread/INFO]: Created new backpack backup file for ThroneS with unique ID travelersbackpack.enderman_23.01.2026-15.14.54.dat
+[15:14:54] [Server thread/INFO]: Your backpack has been placed at X: 1225 Y: 72 Z: 3267
+[15:15:05] [Server thread/INFO]: [Not Secure] <Drazestorm> 1200 3250
+[15:21:54] [Server thread/INFO]: Villager class_1646['Villager'/11412, l='ServerLevel[world]', x=94.72, y=110.00, z=1008.63] died, message: 'Villager suffocated in a wall'
+[15:24:05] [Server thread/INFO]: Villager class_1646['Villager'/11660, l='ServerLevel[world]', x=71.07, y=71.00, z=1065.81] died, message: 'Villager was slain by Zombie'
+[15:33:05] [Server thread/WARN]: Drazestorm moved wrongly!
+[15:34:23] [Server thread/INFO]: ThroneS lost connection: Timed out
+[15:34:23] [Server thread/INFO]: ThroneS left the game
+[15:34:25] [Server thread/INFO]: Drazestorm lost connection: Timed out
+[15:34:25] [Server thread/INFO]: Drazestorm left the game
+[15:34:37] [Server thread/INFO]: ThroneS[/127.187.239.10:36549] logged in with entity id 17795 at (40.59265628353108, 95.0, 933.1898782286969)
+[15:34:37] [Server thread/INFO]: Loading config from file...
+[15:34:38] [Server thread/INFO]: ThroneS joined the game
+[15:34:42] [Server thread/INFO]: Drazestorm[/127.173.179.177:38081] logged in with entity id 18162 at (1007.7283777566851, 66.0, 3921.316385473951)
+[15:34:42] [Server thread/INFO]: Loading config from file...
+[15:34:42] [Server thread/INFO]: Drazestorm joined the game
+[15:38:38] [Server thread/WARN]: ThroneS moved too quickly! -1.782857001378602,-3.9345854633511976,9.0482696288841
+[15:41:30] [Worker-Main-6/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[15:41:34] [Worker-Main-4/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[15:41:34] [Worker-Main-4/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[15:41:34] [Worker-Main-6/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[15:41:34] [Worker-Main-6/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[15:41:34] [Server thread/WARN]: ThroneS moved too quickly! -1.4399155461140367,-1.1661092609382138,9.928335366504598
+[15:41:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2624ms or 52 ticks behind
+[15:41:40] [Worker-Main-6/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[15:41:40] [Worker-Main-6/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[15:41:46] [Worker-Main-6/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[15:41:46] [Worker-Main-6/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[15:41:46] [Worker-Main-4/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[15:41:46] [Worker-Main-4/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[15:41:47] [Worker-Main-4/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[15:41:47] [Worker-Main-6/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[15:41:47] [Worker-Main-5/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[15:41:47] [Worker-Main-4/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[16:00:44] [Server thread/INFO]: Drazestorm lost connection: Timed out
+[16:00:44] [Server thread/INFO]: Drazestorm left the game
+[16:01:01] [Server thread/INFO]: Drazestorm[/127.173.179.177:52311] logged in with entity id 34492 at (1003.4957267313732, 66.0625, 3919.90467083289)
+[16:01:01] [Server thread/INFO]: Loading config from file...
+[16:01:01] [Server thread/INFO]: Drazestorm joined the game
+[16:03:36] [Server thread/WARN]: Drazestorm moved wrongly!
+[16:03:39] [Server thread/WARN]: Drazestorm moved wrongly!
+[16:07:14] [Worker-Main-6/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[16:07:14] [Worker-Main-6/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[16:07:14] [Worker-Main-6/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[16:07:14] [Worker-Main-6/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[16:07:15] [Worker-Main-4/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[16:07:15] [Worker-Main-4/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[16:07:15] [Worker-Main-4/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[16:07:15] [Server thread/INFO]: Drazestorm has made the advancement [We Need to Go Deeper]
+[16:07:16] [Worker-Main-4/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[16:07:16] [Worker-Main-4/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[16:07:16] [Worker-Main-4/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[16:07:16] [Worker-Main-5/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[16:07:16] [Worker-Main-5/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[16:07:16] [Worker-Main-5/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[16:07:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4509ms or 90 ticks behind
+[16:07:17] [Server thread/INFO]: Drazestorm has made the advancement [A Terrible Fortress]
+[16:15:43] [Server thread/INFO]: Levii007[/127.206.143.195:54553] logged in with entity id 38462 at (958.2730709630131, 75.0, 3885.185586153968)
+[16:15:43] [Server thread/INFO]: Loading config from file...
+[16:15:43] [Server thread/INFO]: Levii007 joined the game
+[16:15:55] [Server thread/INFO]: [Not Secure] <Levii007> mute
+[16:21:38] [Server thread/INFO]: Villager class_1646['Villager'/30465, l='ServerLevel[world]', x=1020.29, y=68.00, z=3834.52] died, message: 'Villager was slain by ThroneS'
+[16:21:42] [Server thread/INFO]: Villager class_1646['Villager'/30443, l='ServerLevel[world]', x=1021.21, y=68.00, z=3829.60] died, message: 'Villager was slain by ThroneS'
+[16:29:45] [Server thread/INFO]: Levii007 lost connection: Disconnected
+[16:29:45] [Server thread/INFO]: Levii007 left the game
+[16:30:14] [Server thread/INFO]: Levii007[/127.206.143.195:50143] logged in with entity id 42031 at (902.866288373361, 10.0, 3927.1678206419865)
+[16:30:14] [Server thread/INFO]: Loading config from file...
+[16:30:14] [Server thread/INFO]: Levii007 joined the game
+[16:32:45] [Server thread/INFO]: ThroneS has made the advancement [We Need to Go Deeper]
+[16:32:46] [Server thread/INFO]: ThroneS has made the advancement [A Terrible Fortress]
+[16:33:00] [Server thread/INFO]: Drazestorm has made the advancement [Into Fire]
+[16:34:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1111, y=77, z=3919} class_2338{x=1110, y=75, z=3920}
+[16:34:45] [Server thread/INFO]: [Not Secure] <Levii007> no
+[16:36:25] [Server thread/INFO]: ThroneS lost connection: Disconnected
+[16:36:25] [Server thread/INFO]: ThroneS left the game
+[16:36:47] [Server thread/INFO]: ThroneS[/127.187.239.10:60535] logged in with entity id 45079 at (1141.7767233702793, 80.0, 4160.7082224417245)
+[16:36:47] [Server thread/INFO]: Loading config from file...
+[16:36:47] [Server thread/INFO]: ThroneS joined the game
+[16:38:13] [Server thread/INFO]: ThroneS has made the advancement [Ice Bucket Challenge]
+[16:42:37] [Server thread/INFO]: [Not Secure] <Levii007> 27 pchi
+[16:42:49] [Server thread/INFO]: [Not Secure] <Levii007> y
+[16:44:09] [Server thread/INFO]: Villager class_1646['Villager'/47895, l='ServerLevel[world]', x=999.55, y=63.00, z=3786.67] died, message: 'Villager was slain by Zombie'
+[16:46:45] [Server thread/INFO]: Villager class_1646['Villager'/30580, l='ServerLevel[world]', x=964.70, y=81.00, z=3924.50] died, message: 'Villager was slain by Zombie'
+[16:48:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1037, y=65, z=3907} class_2338{x=1037, y=64, z=3908}
+[16:50:05] [Server thread/INFO]: Villager class_1646['Nitwit'/47825, l='ServerLevel[world]', x=1000.53, y=65.00, z=3900.06] died, message: 'Nitwit was slain by Drazestorm'
+[16:51:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=994, y=67, z=3910} class_2338{x=996, y=64, z=3912}
+[16:51:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=989, y=67, z=3917} class_2338{x=989, y=65, z=3916}
+[16:51:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=988, y=67, z=3916} class_2338{x=987, y=65, z=3915}
+[16:51:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=988, y=67, z=3916} class_2338{x=987, y=65, z=3915}
+[16:51:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=986, y=67, z=3910} class_2338{x=985, y=65, z=3910}
+[16:54:50] [Server thread/INFO]: [Not Secure] <Levii007> loot ma shu ho
+[16:55:03] [Server thread/INFO]: [Not Secure] <Levii007> food sivay shu
+[16:55:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1015, y=63, z=3841} class_2338{x=1015, y=62, z=3841}
+[16:55:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1028, y=63, z=3840} class_2338{x=1028, y=62, z=3839}
+[16:56:30] [Server thread/INFO]: Levii007 has completed the challenge [Find: the ztower]
+[16:56:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1035, y=64, z=3855} class_2338{x=1036, y=63, z=3854}
+[16:56:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1036, y=64, z=3856} class_2338{x=1036, y=63, z=3854}
+[16:56:41] [Server thread/INFO]: [Not Secure] <Levii007> safe?
+[16:56:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1045, y=64, z=3871} class_2338{x=1046, y=62, z=3870}
+[16:56:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1045, y=64, z=3871} class_2338{x=1046, y=62, z=3870}
+[16:56:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1045, y=64, z=3871} class_2338{x=1046, y=62, z=3870}
+[16:59:18] [Server thread/WARN]: Oak Boat (vehicle of Levii007) moved too quickly! -5.954826475085838,0.0,-8.52521854447923
+[16:59:18] [Server thread/WARN]: Oak Boat (vehicle of Levii007) moved too quickly! -6.183458579045691,0.0,-8.853428443321263
+[16:59:18] [Server thread/WARN]: Oak Boat (vehicle of Levii007) moved too quickly! -6.4120807336064445,0.0,-9.181646115031981
+[16:59:18] [Server thread/WARN]: Oak Boat (vehicle of Levii007) moved too quickly! -6.6406939337080075,0.0,-9.509870782324015
+[16:59:18] [Server thread/WARN]: Oak Boat (vehicle of Levii007) moved too quickly! -6.869299074796572,0.0,-9.838101745639506
+[16:59:18] [Server thread/WARN]: Oak Boat (vehicle of Levii007) moved too quickly! -7.0984662858516,0.0,-10.165934632138487
+[16:59:18] [Server thread/WARN]: Oak Boat (vehicle of Levii007) moved too quickly! -7.329201890887134,0.0,-10.492614566860084
+[16:59:18] [Server thread/WARN]: Oak Boat (vehicle of Levii007) moved too quickly! -7.562281140452114,0.0,-10.817512830031319
+[16:59:18] [Server thread/WARN]: Oak Boat (vehicle of Levii007) moved too quickly! -7.798289546827846,0.0,-11.140114224780973
+[16:59:18] [Server thread/WARN]: Oak Boat (vehicle of Levii007) moved too quickly! -8.037655932005919,0.0,-11.46000579562724
+[16:59:18] [Server thread/WARN]: Oak Boat (vehicle of Levii007) moved too quickly! -8.28068117807743,0.0,-11.776864859037687
+[16:59:18] [Server thread/WARN]: Oak Boat (vehicle of Levii007) moved too quickly! -8.527560425722413,0.0,-12.090449441653163
+[16:59:18] [Server thread/WARN]: Oak Boat (vehicle of Levii007) moved too quickly! -8.778405068229858,0.0,-12.400585895382847
+[16:59:18] [Server thread/WARN]: Oak Boat (vehicle of Levii007) moved too quickly! -9.033259113261693,0.0,-12.70715949814985
+[16:59:33] [Server thread/INFO]: ThroneS lost connection: Disconnected
+[16:59:33] [Server thread/INFO]: ThroneS left the game
+[16:59:46] [Server thread/INFO]: ThroneS[/127.187.239.10:46693] logged in with entity id 62940 at (1015.9102027515063, 63.0, 3857.350790318123)
+[16:59:46] [Server thread/INFO]: Loading config from file...
+[16:59:46] [Server thread/INFO]: ThroneS joined the game
+[16:59:46] [Server thread/INFO]: Drazestorm lost connection: Disconnected
+[16:59:46] [Server thread/INFO]: Drazestorm left the game
+[16:59:56] [Server thread/INFO]: Drazestorm[/127.173.179.177:49029] logged in with entity id 63046 at (1026.0379416462833, 63.0, 3896.301307547298)
+[16:59:56] [Server thread/INFO]: Loading config from file...
+[16:59:56] [Server thread/INFO]: Drazestorm joined the game
+[17:01:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1022, y=64, z=3929} class_2338{x=1021, y=62, z=3930}
+[17:01:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1022, y=64, z=3929} class_2338{x=1021, y=62, z=3930}
+[17:01:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1023, y=63, z=3929} class_2338{x=1021, y=62, z=3930}
+[17:01:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1023, y=63, z=3929} class_2338{x=1021, y=62, z=3930}
+[17:01:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1024, y=64, z=3929} class_2338{x=1021, y=62, z=3930}
+[17:01:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1024, y=64, z=3929} class_2338{x=1021, y=62, z=3930}
+[17:01:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1024, y=64, z=3929} class_2338{x=1021, y=62, z=3930}
+[17:01:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1024, y=64, z=3929} class_2338{x=1021, y=62, z=3930}
+[17:01:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1026, y=63, z=3930} class_2338{x=1021, y=62, z=3930}
+[17:01:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1025, y=64, z=3929} class_2338{x=1024, y=62, z=3932}
+[17:01:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1025, y=64, z=3930} class_2338{x=1024, y=62, z=3932}
+[17:01:33] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1023, y=64, z=3930} class_2338{x=1022, y=62, z=3931}
+[17:01:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1020, y=64, z=3928} class_2338{x=1020, y=63, z=3927}
+[17:04:20] [Server thread/WARN]: Oak Boat (vehicle of Levii007) moved too quickly! -40.86350882966576,-0.0036649331209304137,28.503600632964208
+[17:04:20] [Server thread/WARN]: Oak Boat (vehicle of Levii007) moved too quickly! -41.20990459717859,-0.0036649331205467206,28.703624639638292
+[17:04:21] [Server thread/WARN]: Oak Boat (vehicle of Levii007) moved too quickly! -41.55630051818139,-0.0036649331199924973,28.903648455114308
+[17:04:21] [Server thread/WARN]: Oak Boat (vehicle of Levii007) moved too quickly! -41.90269657732529,-0.0036649331193601142,29.10367209851165
+[17:04:21] [Server thread/WARN]: Oak Boat (vehicle of Levii007) moved too quickly! -42.2490927607962,-0.0036649331187135203,29.30369558703842
+[17:04:21] [Server thread/WARN]: Oak Boat (vehicle of Levii007) moved too quickly! -42.59548905616157,-0.0036649331181166644,29.503718936181485
+[17:04:21] [Server thread/WARN]: Oak Boat (vehicle of Levii007) moved too quickly! -42.941885452231645,-0.0036649331176050737,29.70374215987931
+[17:04:21] [Server thread/WARN]: Oak Boat (vehicle of Levii007) moved too quickly! -43.28828193893605,-0.0036649331172000643,29.90376527067656
+[17:04:21] [Server thread/WARN]: Oak Boat (vehicle of Levii007) moved too quickly! -43.63467850721145,-0.0036649331169016364,30.103788279863238
+[17:08:39] [Server thread/INFO]: Drazestorm lost connection: Disconnected
+[17:08:39] [Server thread/INFO]: Drazestorm left the game
+[17:08:51] [Server thread/INFO]: Drazestorm[/127.173.179.177:42487] logged in with entity id 67286 at (1008.4024409205572, 66.0, 3913.7744374117065)
+[17:08:51] [Server thread/INFO]: Loading config from file...
+[17:08:51] [Server thread/INFO]: Drazestorm joined the game
+[17:09:07] [Server thread/INFO]: ThroneS lost connection: Disconnected
+[17:09:07] [Server thread/INFO]: ThroneS left the game
+[17:09:24] [Server thread/INFO]: ThroneS[/127.187.239.10:43695] logged in with entity id 67386 at (1005.684762365577, 66.0625, 3919.950703999162)
+[17:09:24] [Server thread/INFO]: Loading config from file...
+[17:09:24] [Server thread/INFO]: ThroneS joined the game
+[17:10:35] [Server thread/INFO]: [Not Secure] <Levii007> nisarg no msg jo
+[17:11:17] [Server thread/INFO]: ThroneS lost connection: Disconnected
+[17:11:17] [Server thread/INFO]: ThroneS left the game
+[17:11:36] [Server thread/INFO]: ThroneS[/127.187.239.10:60995] logged in with entity id 67890 at (1012.4377117210084, 64.0, 3834.699999988079)
+[17:11:36] [Server thread/INFO]: Loading config from file...
+[17:11:36] [Server thread/INFO]: ThroneS joined the game
+[17:15:26] [Server thread/INFO]: Levii007 has made the advancement [We Need to Go Deeper]
+[17:15:27] [Server thread/INFO]: Levii007 has made the advancement [A Terrible Fortress]
+[17:15:59] [Server thread/INFO]: chira1785[/127.223.20.127:44169] logged in with entity id 68899 at (1046.696130433736, 70.0, 3936.757104713563)
+[17:15:59] [Server thread/INFO]: Loading config from file...
+[17:15:59] [Server thread/INFO]: chira1785 joined the game
+[17:16:59] [Server thread/INFO]: ThroneS lost connection: Disconnected
+[17:16:59] [Server thread/INFO]: ThroneS left the game
+[17:17:15] [Server thread/INFO]: ThroneS[/127.187.239.10:49151] logged in with entity id 69190 at (1011.7600088057461, 65.0, 3891.446511638038)
+[17:17:15] [Server thread/INFO]: Loading config from file...
+[17:17:15] [Server thread/INFO]: ThroneS joined the game
+[17:18:28] [Server thread/WARN]: ThroneS moved wrongly!
+[17:18:36] [Server thread/INFO]: ThroneS lost connection: Disconnected
+[17:18:36] [Server thread/INFO]: ThroneS left the game
+[17:18:52] [Server thread/INFO]: ThroneS[/127.187.239.10:43973] logged in with entity id 69930 at (1039.2593860212437, 63.0, 3964.819601617411)
+[17:18:52] [Server thread/INFO]: Loading config from file...
+[17:18:52] [Server thread/INFO]: ThroneS joined the game
+[17:21:27] [Server thread/INFO]: chira1785 has made the advancement [We Need to Go Deeper]
+[17:21:28] [Server thread/INFO]: chira1785 has made the advancement [A Terrible Fortress]
+[17:21:32] [Server thread/INFO]: [Not Secure] <Levii007> conquor nether
+[17:23:52] [Server thread/WARN]: Player Levii007 just tried to change non-editable sign
+[17:24:27] [Server thread/INFO]: Drazestorm lost connection: Disconnected
+[17:24:27] [Server thread/INFO]: Drazestorm left the game
+[17:24:36] [Server thread/INFO]: Drazestorm[/127.173.179.177:58759] logged in with entity id 71631 at (1001.7833768397626, 64.9375, 3908.296667730946)
+[17:24:36] [Server thread/INFO]: Loading config from file...
+[17:24:36] [Server thread/INFO]: Drazestorm joined the game
+[17:27:20] [Server thread/INFO]: Levii007 lost connection: Timed out
+[17:27:20] [Server thread/INFO]: Levii007 left the game
+[17:27:49] [Server thread/INFO]: Levii007[/127.97.100.49:58275] logged in with entity id 72575 at (896.9052699139663, 4.0, 4029.4973908743364)
+[17:27:49] [Server thread/INFO]: Loading config from file...
+[17:27:49] [Server thread/INFO]: Levii007 joined the game
+[17:28:20] [Server thread/INFO]: Levii007 lost connection: Timed out
+[17:28:20] [Server thread/INFO]: Levii007 left the game
+[17:28:43] [Server thread/INFO]: Levii007[/127.97.100.49:54689] logged in with entity id 72755 at (896.9052699139663, 4.0, 4029.4973908743364)
+[17:28:43] [Server thread/INFO]: Loading config from file...
+[17:28:43] [Server thread/INFO]: Levii007 joined the game
+[17:29:14] [Server thread/INFO]: com.mojang.authlib.GameProfile@4713226c[id=50267c50-0b81-3c33-8ea3-911c7412cf17,name=Manendra,properties={}] lost connection: Disconnected
+[17:29:29] [Server thread/INFO]: com.mojang.authlib.GameProfile@17f5a53d[id=50267c50-0b81-3c33-8ea3-911c7412cf17,name=Manendra,properties={}] lost connection: Disconnected
+[17:29:50] [Server thread/INFO]: Drazestorm lost connection: Disconnected
+[17:29:50] [Server thread/INFO]: Drazestorm left the game
+[17:30:24] [Server thread/INFO]: Drazestorm[/127.173.179.177:38003] logged in with entity id 73269 at (915.1423630349435, -52.0, 4060.7079313731165)
+[17:30:24] [Server thread/INFO]: Loading config from file...
+[17:30:24] [Server thread/INFO]: Drazestorm joined the game
+[17:30:57] [Server thread/INFO]: Levii007 was doomed to fall by Zombie
+[17:30:57] [Server thread/INFO]: Created new backpack backup file for Levii007 with unique ID travelersbackpack.standard_23.01.2026-17.30.57.dat
+[17:30:57] [Server thread/INFO]: Created new backpack backup file for Levii007 with unique ID travelersbackpack.standard_23.01.2026-17.30.57.dat
+[17:30:57] [Server thread/INFO]: Your backpack has been placed at X: 927 Y: -44 Z: 4022
+[17:31:14] [Server thread/INFO]: Villager class_1646['Villager'/30593, l='ServerLevel[world]', x=959.98, y=68.75, z=3957.30] died, message: 'Villager was slain by Zombie'
+[17:31:41] [Server thread/INFO]: ThroneS lost connection: Disconnected
+[17:31:41] [Server thread/INFO]: ThroneS left the game
+[17:32:51] [Server thread/INFO]: [Not Secure] <Levii007> water
+[17:33:04] [Server thread/INFO]: [Not Secure] <Levii007> at entrance
+[17:33:59] [Server thread/INFO]: [Not Secure] <Levii007> near me daimond
+[17:34:08] [Server thread/INFO]: Manendra[/127.235.25.63:36701] logged in with entity id 74270 at (4.5, 134.0, -1.5)
+[17:34:08] [Server thread/INFO]: Loading config from file...
+[17:34:08] [Server thread/INFO]: Manendra joined the game
+[17:34:42] [Server thread/INFO]: [Not Secure] <Levii007> water
+[17:34:47] [Server thread/INFO]: [Not Secure] <Levii007> half hp
+[17:35:01] [Server thread/INFO]: [Not Secure] <Levii007> heppppppppppppppppppppppppppppppppppppppppppppppppppp
+[17:35:22] [Server thread/INFO]: [Not Secure] <Levii007> half hp
+[17:35:45] [Server thread/INFO]: Levii007 hit the ground too hard
+[17:36:59] [Server thread/INFO]: [Not Secure] <Levii007> nice bc
+[17:37:05] [Server thread/INFO]: [Not Secure] <Levii007> well done
+[17:37:13] [Server thread/INFO]: [Not Secure] <Levii007> i will remember it
+[17:39:59] [Server thread/INFO]: Levii007 fell from a high place
+[17:40:05] [Server thread/INFO]: [Not Secure] <Levii007> shu???
+[17:40:37] [Server thread/INFO]: Manendra has made the advancement [Stone Age]
+[17:40:46] [Server thread/INFO]: Manendra has made the advancement [Getting an Upgrade]
+[17:42:03] [Server thread/INFO]: Manendra lost connection: Disconnected
+[17:42:03] [Server thread/INFO]: Manendra left the game
+[17:42:16] [Server thread/INFO]: [Not Secure] <Levii007> :{
+[17:44:00] [Server thread/INFO]: Levii007 has made the advancement [Diamonds!]
+[17:44:35] [Server thread/INFO]: [Not Secure] <Levii007> nothing
+[17:44:56] [Server thread/INFO]: Levii007 was slain by chira1785
+[17:45:04] [Server thread/INFO]: Manendra[/127.235.25.63:55569] logged in with entity id 79264 at (216.34241043031716, 71.0, 424.3214300168787)
+[17:45:04] [Server thread/INFO]: Loading config from file...
+[17:45:04] [Server thread/INFO]: Manendra joined the game
+[17:46:44] [Server thread/INFO]: Levii007 lost connection: Timed out
+[17:46:44] [Server thread/INFO]: Levii007 left the game
+[17:47:40] [Server thread/INFO]: Levii007[/127.97.100.49:36051] logged in with entity id 80247 at (1005.4792693708722, 64.9375, 3904.0762242997935)
+[17:47:40] [Server thread/INFO]: Loading config from file...
+[17:47:40] [Server thread/INFO]: Levii007 joined the game
+[17:48:19] [Server thread/INFO]: [Not Secure] <Levii007> net nai chaltu
+[17:48:25] [Server thread/INFO]: Levii007 lost connection: Timed out
+[17:48:25] [Server thread/INFO]: Levii007 left the game
+[17:49:22] [Server thread/INFO]: Levii007[/127.97.100.49:52741] logged in with entity id 80886 at (1005.4792693708722, 64.9375, 3904.0762242997935)
+[17:49:22] [Server thread/INFO]: Loading config from file...
+[17:49:22] [Server thread/INFO]: Levii007 joined the game
+[17:51:50] [Server thread/WARN]: Levii007 moved too quickly! -2.5326266770197208,0.0,-9.922396913942066
+[17:52:01] [Server thread/INFO]: Manendra has made the advancement [Monster Hunter]
+[17:53:35] [Server thread/INFO]: [Not Secure] <Levii007> tata
+[17:53:40] [Server thread/INFO]: Levii007 lost connection: Disconnected
+[17:53:40] [Server thread/INFO]: Levii007 left the game
+[17:59:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=536, y=64, z=2481} class_2338{x=536, y=62, z=2482}
+[18:00:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=958, y=82, z=3955} class_2338{x=958, y=81, z=3954}
+[18:00:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=952, y=81, z=3936} class_2338{x=952, y=81, z=3935}
+[18:00:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=951, y=80, z=3934} class_2338{x=951, y=80, z=3935}
+[18:03:24] [Server thread/INFO]: Villager class_1646['Villager'/76954, l='ServerLevel[world]', x=988.80, y=68.00, z=3871.95] died, message: 'Villager hit the ground too hard'
+[18:03:25] [Server thread/WARN]: Manendra moved too quickly! -2.5463984133667736,-9.882352522710946,1.098565445364784
+[18:04:03] [Server thread/INFO]: chira1785 lost connection: Disconnected
+[18:04:03] [Server thread/INFO]: chira1785 left the game
+[18:06:32] [Server thread/INFO]: Villager class_1646['Villager'/30650, l='ServerLevel[world]', x=950.70, y=73.00, z=3963.38] died, message: 'Villager was slain by Zombie'
+[18:18:08] [Server thread/INFO]: Manendra has made the advancement [Acquire Hardware]
+[18:20:55] [Server thread/INFO]: Manendra lost connection: Disconnected
+[18:20:55] [Server thread/INFO]: Manendra left the game
+[18:21:04] [Server thread/INFO]: Drazestorm lost connection: Disconnected
+[18:21:04] [Server thread/INFO]: Drazestorm left the game
