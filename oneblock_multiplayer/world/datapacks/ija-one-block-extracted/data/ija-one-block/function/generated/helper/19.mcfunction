@@ -1,0 +1,24 @@
+# Copyright: OneBlock by IJAMinecraft
+# https://ijaminecraft.com/map/oneblock/
+
+execute if data storage ija-one-block:lang auto run return run data modify storage ija-one-block:intro t set value {t:{with:["5",{translate:"ija.oneblock.tl.18",fallback:"Jungle Dungeon"}],translate:"ija.oneblock.tl.7",fallback:"You reached phase %s: %s!"},d:{translate:"ija.oneblock.tl.19",fallback:"Hidden by ancient trees and covered in vines lies a dungeon."}}
+execute if data storage ija-one-block:lang cs run return run data modify storage ija-one-block:intro t set value {t:"Dosáhl si fáze 5: Džungle Dungeon!",d:"Za starobylými stromy pokrytými liánami leží schovaný želář."}
+execute if data storage ija-one-block:lang da run return run data modify storage ija-one-block:intro t set value {t:"Du er nået til fase 5: Jungle Dungeon!",d:"Gemt af ældgamle træer og dækket til med lianer ligger en dungeon."}
+execute if data storage ija-one-block:lang de run return run data modify storage ija-one-block:intro t set value {t:"Du hast Phase 5 erreicht: Dschungel-Dungeon!",d:"Versteckt von alten Bäumen und Reben liegt ein Dungeon."}
+execute if data storage ija-one-block:lang en run return run data modify storage ija-one-block:intro t set value {t:"You reached phase 5: Jungle Dungeon!",d:"Hidden by ancient trees and covered in vines lies a dungeon."}
+execute if data storage ija-one-block:lang es run return run data modify storage ija-one-block:intro t set value {t:"¡Llegaste a la fase 5: La mazmorra de la jungla!",d:"Escondida entre los antiguos arboles y cubierta en lianas, se encuentra una mazmorra."}
+execute if data storage ija-one-block:lang fa run return run data modify storage ija-one-block:intro t set value {t:"Shoma Be Faze 5: Dungeon Jangali Residid!",d:"Makhfi Shode Tavasote Derakht Haye Ghadimi Va Jolbak Yek Dungeon Gharar Darad."}
+execute if data storage ija-one-block:lang fr run return run data modify storage ija-one-block:intro t set value {t:"Vous avez atteint la phase 5: Temple de la Jungle!",d:"Caché par des arbres anciens et recouvert de lianes, se trouve un temple."}
+execute if data storage ija-one-block:lang he run return run data modify storage ija-one-block:intro t set value {t:"הגעת לשלב 5: מבוך הג'ונגל!",d:"מוסתר בעצים עתיקים ומכוסה גפנים שוכן מבוך."}
+execute if data storage ija-one-block:lang hu run return run data modify storage ija-one-block:intro t set value {t:"Elérted a(z) 5.: Dzsungel börtön fázist!",d:"Elrejtve ősi fák mögött indákkal takarózik egy börtön."}
+execute if data storage ija-one-block:lang it run return run data modify storage ija-one-block:intro t set value {t:"Hai raggiunto fase 5: Dungeon Della Giungla!",d:"Nascosta da alberi antichi e coperto da rampicanti c'è un dungeon."}
+execute if data storage ija-one-block:lang ja run return run data modify storage ija-one-block:intro t set value {t:"フェーズ 5 到達：ジャングル！",d:"古木に隠れ、蔓に覆われたダンジョンがある。"}
+execute if data storage ija-one-block:lang nl run return run data modify storage ija-one-block:intro t set value {t:"Je hebt fase 5 bereikt: Jungle Kerker!",d:"Verstopt onder oude bomen en bedekt met lianen ligt een kerker."}
+execute if data storage ija-one-block:lang pl run return run data modify storage ija-one-block:intro t set value {t:"Osiągnąłes fazę 5: Dżunglowa Świątynia!",d:"Ukryta wśród starożytnych drzew i pokryta pnączami leży świątynia."}
+execute if data storage ija-one-block:lang pt run return run data modify storage ija-one-block:intro t set value {t:"Você chegou na fase 5: Masmorra da Selva!",d:"Escondida por árvores antigas e coberta de vinhas há uma masmorra."}
+execute if data storage ija-one-block:lang ru run return run data modify storage ija-one-block:intro t set value {t:"Вы достигли фазы 5: Джунглевые развалины!",d:"За древними деревьями и лианами прячутся руины."}
+execute if data storage ija-one-block:lang sk run return run data modify storage ija-one-block:intro t set value {t:"Dosiahol si fázu 5: Jungle katakomba!",d:"Skrytá starovekými stromami a obrastená lianamy leží katakomba."}
+execute if data storage ija-one-block:lang tr run return run data modify storage ija-one-block:intro t set value {t:"5 aşamasına ulaştınız: Orman Zindanı!",d:"Kadim ağaçların arasına gizlenmiş ve sarmaşıklarla kaplı bir zindan yatıyor."}
+execute if data storage ija-one-block:lang uk run return run data modify storage ija-one-block:intro t set value {t:"Ви досягли фази 5: Тропічне підземелля!",d:"Під віковими деревами, оповитими лозами, лежить підземелля."}
+execute if data storage ija-one-block:lang zhs run return run data modify storage ija-one-block:intro t set value {t:"你到达了阶段 5：丛林地牢！",d:"被古树和藤蔓掩盖之处，坐落着一座地牢。"}
+data modify storage ija-one-block:intro t set value {t:"你到達了階段 5：叢林地牢！",d:"古樹掩映，藤蔓覆蓋，一座地牢隱藏其中。"}

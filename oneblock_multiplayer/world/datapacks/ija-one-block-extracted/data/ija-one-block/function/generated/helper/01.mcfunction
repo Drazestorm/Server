@@ -1,0 +1,7 @@
+# Copyright: OneBlock by IJAMinecraft
+# https://ijaminecraft.com/map/oneblock/
+
+kill @e[tag=ija-a4-chest]
+summon minecraft:marker ~ ~ ~ {data:{auto:{color:"dark_red",translate:"ija.oneblock.tl.1t",fallback:"Benevolent Gift"},cs:{color:"dark_red",text:"Velkorysý dárek"},da:{color:"dark_red",text:"Gavmild Gave"},de:{color:"dark_red",text:"Wohlwollendes Geschenk"},en:{color:"dark_red",text:"Benevolent Gift"},es:{color:"dark_red",text:"Cofre benevolente"},fa:{color:"dark_red",text:"Cheste Hedie"},fr:{color:"dark_red",text:"Cadeau Bienveillant"},he:{color:"dark_red",text:"מתנה נדיבה"},hu:{color:"dark_red",text:"Szívélyes Ajándék"},it:{color:"dark_red",text:"Regalo Benevolente"},ja:{color:"dark_red",text:"慈愛のプレゼント"},nl:{color:"dark_red",text:"Hartelijk Geschenk"},pl:{color:"dark_red",text:"Życzliwy Dar"},pt:{color:"dark_red",text:"Baú Benevolente"},ru:{color:"dark_red",text:"Щедрый Подарок"},sk:{color:"dark_red",text:"Benevolentý Darček"},tr:{color:"dark_red",text:"İyiliksever Hediye"},uk:{color:"dark_red",text:"Благодійний Подарунок"},zhs:{color:"dark_red",text:"仁慈之礼"},zht:{color:"dark_red",text:"階段獎勵"}},Tags:["ija-a4-chest","ija-a4-chest-has-particles","ija-a4-chest-gift"]}
+execute as @e[tag=ija-a4-chest] at @s run function ija-one-block:generated/chest/set-name
+playsound minecraft:entity.wandering_trader.yes master @a[distance=..35] ~ ~ ~ 1 .9 1

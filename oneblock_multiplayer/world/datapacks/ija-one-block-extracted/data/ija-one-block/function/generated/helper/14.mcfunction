@@ -1,0 +1,7 @@
+# Copyright: OneBlock by IJAMinecraft
+# https://ijaminecraft.com/map/oneblock/
+
+kill @e[tag=ija-a4-chest]
+summon minecraft:marker ~ ~ ~ {data:{auto:{color:"#606584",translate:"ija.oneblock.tl.3a",fallback:"Builder's Chest"},cs:{color:"#606584",text:"Truhla stavitele"},da:{color:"#606584",text:"Byggerens Kiste"},de:{color:"#606584",text:"Truhe des Baumeisters"},en:{color:"#606584",text:"Builder's Chest"},es:{color:"#606584",text:"Cofre del Constructor"},fa:{color:"#606584",text:"Cheste Bana"},fr:{color:"#606584",text:"Coffre du Bâtisseur"},he:{color:"#606584",text:"תיבת בנאי"},hu:{color:"#606584",text:"Építő Láda"},it:{color:"#606584",text:"Cassa del Costruttore"},ja:{color:"#606584",text:"建築者のチェスト"},nl:{color:"#606584",text:"Bouwer's Kist"},pl:{color:"#606584",text:"Skrzynia Budowlańca"},pt:{color:"#606584",text:"Baú do Construtor"},ru:{color:"#606584",text:"Сундук Строителя"},sk:{color:"#606584",text:"Truhlica Staviteľa"},tr:{color:"#606584",text:"İnşaatçı Sandığı"},uk:{color:"#606584",text:"Скриня Будівельника"},zhs:{color:"#606584",text:"建造者的箱子"},zht:{color:"#606584",text:"建造者的箱子"}},Tags:["ija-a4-chest","ija-a4-chest-has-particles","ija-a4-chest-builder"]}
+execute as @e[tag=ija-a4-chest] at @s run function ija-one-block:generated/chest/set-name
+playsound minecraft:item.axe.wax_off master @a[distance=..35] ~ ~ ~ 1.3 .5 1

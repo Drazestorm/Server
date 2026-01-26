@@ -1,0 +1,7 @@
+# Copyright: OneBlock by IJAMinecraft
+# https://ijaminecraft.com/map/oneblock/
+
+kill @e[tag=ija-a4-chest]
+summon minecraft:marker ~ ~ ~ {data:{auto:{color:"black",translate:"ija.oneblock.tl.1v",fallback:"Odd Chest"},cs:{color:"black",text:"Zvláštní truhla"},da:{color:"black",text:"Underlig Kiste"},de:{color:"black",text:"Merkwürdige Truhe"},en:{color:"black",text:"Odd Chest"},es:{color:"black",text:"Cofre extraño"},fa:{color:"black",text:"Cheste Ajib Va Gharib"},fr:{color:"black",text:"Coffre Étrange"},he:{color:"black",text:"תיבה מוזרה"},hu:{color:"black",text:"Furcsa Láda"},it:{color:"black",text:"Cassa Strana"},ja:{color:"black",text:"奇妙なチェスト"},nl:{color:"black",text:"Vreemde Kist"},pl:{color:"black",text:"Dziwna Skrzynia"},pt:{color:"black",text:"Baú Estranho"},ru:{color:"black",text:"Необычный Сундук"},sk:{color:"black",text:"Zvláštna Truhla"},tr:{color:"black",text:"Tek Sandık"},uk:{color:"black",text:"Дивна Скриня"},zhs:{color:"black",text:"偶然得到的箱子"},zht:{color:"black",text:"奇異儲物箱"}},Tags:["ija-a4-chest","ija-a4-chest-has-particles","ija-a4-chest-odd"]}
+execute as @e[tag=ija-a4-chest] at @s run function ija-one-block:generated/chest/set-name
+playsound minecraft:block.respawn_anchor.charge master @a[distance=..35] ~ ~ ~ 1 .5 1

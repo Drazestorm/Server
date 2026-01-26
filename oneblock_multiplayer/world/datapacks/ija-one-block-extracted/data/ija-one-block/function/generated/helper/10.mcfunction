@@ -1,0 +1,7 @@
+# Copyright: OneBlock by IJAMinecraft
+# https://ijaminecraft.com/map/oneblock/
+
+kill @e[tag=ija-a4-chest]
+summon minecraft:marker ~ ~ ~ {data:{auto:{color:"blue",translate:"ija.oneblock.tl.1x",fallback:"Variety Chest"},cs:{color:"blue",text:"Rozmanitá truhla"},da:{color:"blue",text:"Blandet Kiste"},de:{color:"blue",text:"Vielfältige Truhe"},en:{color:"blue",text:"Variety Chest"},es:{color:"blue",text:"Cofre variado"},fa:{color:"blue",text:"Cheste Tarkibi"},fr:{color:"blue",text:"Coffre Varié"},he:{color:"blue",text:"תיבת מגוון"},hu:{color:"blue",text:"Sokoldalú Láda"},it:{color:"blue",text:"Cassa Varia"},ja:{color:"blue",text:"バラエティチェスト"},nl:{color:"blue",text:"Gevarieerde Kist"},pl:{color:"blue",text:"Skrzynia Różnorodności"},pt:{color:"blue",text:"Baú de Variedades"},ru:{color:"blue",text:"Разнообразный Сундук"},sk:{color:"blue",text:"Rozdielná Truhla"},tr:{color:"blue",text:"Çeşitlilik Sandığı"},uk:{color:"blue",text:"Різноманітна Скриня"},zhs:{color:"blue",text:"百变箱子"},zht:{color:"blue",text:"驚喜儲物箱"}},Tags:["ija-a4-chest","ija-a4-chest-has-particles","ija-a4-chest-variety"]}
+execute as @e[tag=ija-a4-chest] at @s run function ija-one-block:generated/chest/set-name
+playsound minecraft:block.ender_chest.open master @a[distance=..35] ~ ~ ~ 1 .5 1

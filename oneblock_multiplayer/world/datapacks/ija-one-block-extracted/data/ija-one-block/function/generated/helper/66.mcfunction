@@ -1,0 +1,23 @@
+# Copyright: OneBlock by IJAMinecraft
+# https://ijaminecraft.com/map/oneblock/
+
+execute if data storage ija-one-block:lang cs run return run data modify storage ija-one-block:menu-lang t set value {t:"Změnit jazyk",l:"Jazyk: Čeština",h:"Czech",c:"Přeložil Streetex",a:"Automatické (Výchozí)"}
+execute if data storage ija-one-block:lang da run return run data modify storage ija-one-block:menu-lang t set value {t:"Skift sprog",l:"Sprog: Dansk (Danmark)",h:"Danish (Denmark)",c:"Oversat af Albert;)",a:"Automatisk (Standard)"}
+execute if data storage ija-one-block:lang de run return run data modify storage ija-one-block:menu-lang t set value {t:"Sprache ändern",l:"Sprache: Deutsch (Deutschland)",h:"German (Germany)",c:"Übersetzung von IJAMinecraft",a:"Automatisch (Standard)"}
+execute if data storage ija-one-block:lang en run return run data modify storage ija-one-block:menu-lang t set value {t:"Change Language",l:"Language: English (US)",h:"English (US)",c:"Translation by IJAMinecraft",a:"Automatic (Default)"}
+execute if data storage ija-one-block:lang es run return run data modify storage ija-one-block:menu-lang t set value {t:"Cambiar idioma",l:"Idioma: Español",h:"Spanish",c:"Traducción por Chedar_asriel",a:"Automática (Por defecto)"}
+execute if data storage ija-one-block:lang fa run return run data modify storage ija-one-block:menu-lang t set value {t:"Avaz Kardan Zaban",l:"Zaban: Farsi",h:"Persian",c:"Tarjome Tava'asote AmirparsaDD",a:"Khodkar (Pishfarz)"}
+execute if data storage ija-one-block:lang fr run return run data modify storage ija-one-block:menu-lang t set value {t:"Changez de Langue",l:"Langue: Français",h:"French",c:"Traduis par Arkinos",a:"Automatique (Par défaut)"}
+execute if data storage ija-one-block:lang he run return run data modify storage ija-one-block:menu-lang t set value {t:"שנה שפה",l:"שפה: עברית",h:"Hebrew",c:"XFYADX תורגם על ידי",a:"אוטומטי (ברירת מחדל)"}
+execute if data storage ija-one-block:lang hu run return run data modify storage ija-one-block:menu-lang t set value {t:"Nyelv váltás",l:"Nyelv: Magyar",h:"Hungarian",c:"Fordítás: Avi0627",a:"Automatikus (Alapértelmezett)"}
+execute if data storage ija-one-block:lang it run return run data modify storage ija-one-block:menu-lang t set value {t:"Cambia Lingua",l:"Lingua: Italiano",h:"Italian",c:"Tradotto da Niko20119",a:"Automatico (Predefinito)"}
+execute if data storage ija-one-block:lang ja run return run data modify storage ija-one-block:menu-lang t set value {t:"言語を変更",l:"言語：日本語",h:"Japanese",c:"翻訳：ムラサメ／MVrasame",a:"自動 (デフォルト)"}
+execute if data storage ija-one-block:lang nl run return run data modify storage ija-one-block:menu-lang t set value {t:"Verander Taal",l:"Taal: Nederlands",h:"Dutch",c:"Vertaald door Silbee",a:"Automatisch (Standaard)"}
+execute if data storage ija-one-block:lang pl run return run data modify storage ija-one-block:menu-lang t set value {t:"Zmień Język",l:"Język: Polski",h:"Polish",c:"Przetłumaczone przez raszeqtostivek",a:"Automatycznie (Domyślny)"}
+execute if data storage ija-one-block:lang pt run return run data modify storage ija-one-block:menu-lang t set value {t:"Mudar a Língua",l:"Língua: Português (Brasil)",h:"Portuguese (Brazil)",c:"Traduzido por Arthur_0283",a:"Automática (Padrão)"}
+execute if data storage ija-one-block:lang ru run return run data modify storage ija-one-block:menu-lang t set value {t:"Сменить язык",l:"Язык: Русский",h:"Russian",c:"Переведено mellwo101",a:"Автоматический (Стандартный)"}
+execute if data storage ija-one-block:lang sk run return run data modify storage ija-one-block:menu-lang t set value {t:"Zmena jazyka",l:"Jazyk: Slovensky",h:"Slovak",c:"Preložené z StrikingDart522",a:"Automatický (Predvolený)"}
+execute if data storage ija-one-block:lang tr run return run data modify storage ija-one-block:menu-lang t set value {t:"Dili değiştir",l:"Dil: Türkçe",h:"Turkish",c:"atlasalan007 tarafından çeviri",a:"Otomatik (Varsayılan)"}
+execute if data storage ija-one-block:lang uk run return run data modify storage ija-one-block:menu-lang t set value {t:"Змінити мову",l:"Мова: Українська",h:"Ukrainian",c:"Переклав: Vil4ckc",a:"Автоматичний (Стандартний)"}
+execute if data storage ija-one-block:lang zhs run return run data modify storage ija-one-block:menu-lang t set value {t:"更改语言",l:"语言：简体中文",h:"Simplified Chinese",c:"译者：xiaopangju",a:"自动（默认）"}
+data modify storage ija-one-block:menu-lang t set value {t:"變更語言",l:"語言：繁體中文",h:"Traditional Chinese",c:"譯者：notlin4",a:"自動（預設）"}

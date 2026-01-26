@@ -1,0 +1,7 @@
+# Copyright: OneBlock by IJAMinecraft
+# https://ijaminecraft.com/map/oneblock/
+
+kill @e[tag=ija-a4-chest]
+summon minecraft:marker ~ ~ ~ {data:{auto:{color:"dark_aqua",translate:"ija.oneblock.tl.1u",fallback:"Musical Chest"},cs:{color:"dark_aqua",text:"Hudební truhla"},da:{color:"dark_aqua",text:"Musikalsk Kiste"},de:{color:"dark_aqua",text:"Musikalische Truhe"},en:{color:"dark_aqua",text:"Musical Chest"},es:{color:"dark_aqua",text:"Cofre musical"},fa:{color:"dark_aqua",text:"Cheste Ahangin"},fr:{color:"dark_aqua",text:"Coffre Musical"},he:{color:"dark_aqua",text:"תיבה מוזיקלית"},hu:{color:"dark_aqua",text:"Zenei Láda"},it:{color:"dark_aqua",text:"Cassa Musicale"},ja:{color:"dark_aqua",text:"ミュージックボックス"},nl:{color:"dark_aqua",text:"Muzikale Kist"},pl:{color:"dark_aqua",text:"Muzyczna Skrzynia"},pt:{color:"dark_aqua",text:"Baú Musical"},ru:{color:"dark_aqua",text:"Музыкальный Сундук"},sk:{color:"dark_aqua",text:"Hudobná Truhla"},tr:{color:"dark_aqua",text:"Müzik Sandığı"},uk:{color:"dark_aqua",text:"Музична Скриня"},zhs:{color:"dark_aqua",text:"音乐之礼"},zht:{color:"dark_aqua",text:"音樂儲物箱"}},Tags:["ija-a4-chest","ija-a4-chest-has-particles","ija-a4-chest-musical"]}
+execute as @e[tag=ija-a4-chest] at @s run function ija-one-block:generated/chest/set-name
+playsound minecraft:block.note_block.pling master @a[distance=..35] ~ ~ ~ 1 .5 1
