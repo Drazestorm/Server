@@ -1,1 +1,0 @@
-java -Xms4G -Xmx8G -XX:+UseG1GC -jar fabric_server.jar nogui

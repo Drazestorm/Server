@@ -1,7 +1,0 @@
-# Copyright: OneBlock by IJAMinecraft
-# https://ijaminecraft.com/map/oneblock/
-
-kill @e[tag=ija-a4-chest]
-summon minecraft:marker ~ ~ ~ {data:{auto:{color:"dark_purple",translate:"ija.oneblock.tl.1w",fallback:"Rare Chest"},cs:{color:"dark_purple",text:"Vzácná truhla"},da:{color:"dark_purple",text:"Sjælden Kiste"},de:{color:"dark_purple",text:"Seltene Truhe"},en:{color:"dark_purple",text:"Rare Chest"},es:{color:"dark_purple",text:"Cofre raro"},fa:{color:"dark_purple",text:"Cheste Kamyab"},fr:{color:"dark_purple",text:"Coffre Rare"},he:{color:"dark_purple",text:"תיבה נדירה"},hu:{color:"dark_purple",text:"Ritka Láda"},it:{color:"dark_purple",text:"Cassa Rara"},ja:{color:"dark_purple",text:"レア チェスト"},nl:{color:"dark_purple",text:"Zeldzame Kist"},pl:{color:"dark_purple",text:"Rzadka Skrzynia"},pt:{color:"dark_purple",text:"Baú Raro"},ru:{color:"dark_purple",text:"Редкий Сундук"},sk:{color:"dark_purple",text:"Vzácna Truhla"},tr:{color:"dark_purple",text:"Nadir Sandık"},uk:{color:"dark_purple",text:"Рідкісна Скриня"},zhs:{color:"dark_purple",text:"稀有的箱子"},zht:{color:"dark_purple",text:"稀有儲物箱"}},Tags:["ija-a4-chest","ija-a4-chest-has-particles","ija-a4-chest-rare"]}
-execute as @e[tag=ija-a4-chest] at @s run function ija-one-block:generated/chest/set-name
-playsound minecraft:item.trident.thunder master @a[distance=..35] ~ ~ ~ .6 .5 .6
